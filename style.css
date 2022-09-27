@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -68,4 +69,94 @@ img {
 h1, h2, h3, h4, h5, h6 {
   font-size: inherit;
   font-weight: 400;
+}
+
+* {
+  font-family: "Luckiest Guy", cursive;
+}
+
+.header {
+  background-color: red;
+  height: 80px;
+  padding-top: 20px;
+}
+
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+  margin-left: 70px;
+  font-weight: bold;
+}
+
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 35px;
+  width: 400px;
+}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 700px;
+}
+.section_item {
+  font-size: 30px;
+}
+
+a {
+  color: white;
+}
+
+.container {
+  width: 95%;
+  height: 700px;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.example {
+  margin: 10px;
+  border: 1px solid black;
+  height: 100%;
+  width: 80%;
+}
+
+.options_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 33.33%;
+  text-align: center;
+  border: 1px solid black;
+  font-size: 15vh;
+  padding-top: 35px;
+}
+
+.options {
+  height: 100%;
+  border: 1px solid black;
+  margin: 10px;
+  width: 20%;
 }
