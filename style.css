@@ -136,6 +136,14 @@ a {
   border: 1px solid black;
   height: 100%;
   width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 250px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 180px;
 }
 
 .options_item {
@@ -152,6 +160,22 @@ a {
   border: 1px solid black;
   font-size: 15vh;
   padding-top: 35px;
+}
+
+.item {
+  margin: 25px;
+}
+
+.item1 {
+  color: rgb(1, 140, 227);
+}
+
+.item2 {
+  color: rgb(255, 238, 0);
+}
+
+.item3 {
+  color: rgb(255, 0, 140);
 }
 
 .options {

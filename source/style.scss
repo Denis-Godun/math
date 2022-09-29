@@ -51,6 +51,10 @@ a{
     border: 1px solid black;
     height: 100%;
     width: 80%;
+    display: flex;
+    font-size: 250px;
+ justify-content: center;
+ padding-top: 180px;
 
 }
 .options_item {
@@ -63,15 +67,21 @@ a{
     font-size: 15vh;
     padding-top: 35px;
 }
+.item{
+    margin: 25px;
+}
 .num1 {
 }
 .num2 {
 }
 .item1 {
+    color:rgb(1, 140, 227);
 }
 .item2 {
+    color:rgb(255, 238, 0);
 }
 .item3 {
+    color:rgb(255, 0, 140);
 }
 .options {
     height: 100%;
