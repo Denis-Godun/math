@@ -160,6 +160,7 @@ a {
   border: 1px solid black;
   font-size: 15vh;
   padding-top: 35px;
+  cursor: pointer;
 }
 
 .item {
