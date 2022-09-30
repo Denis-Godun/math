@@ -133,7 +133,7 @@ a {
 
 .example {
   margin: 10px;
-  border: 1px solid black;
+  border: 3px solid black;
   height: 100%;
   width: 80%;
   display: -webkit-box;
@@ -144,6 +144,9 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
   padding-top: 180px;
+  -webkit-box-shadow: 0 0 35px gray;
+          box-shadow: 0 0 35px gray;
+  background-image: url("depositphotos_120092460-stock-photo-paper-in-the-cell.jpg");
 }
 
 .options_item {
@@ -159,8 +162,12 @@ a {
   text-align: center;
   border: 1px solid black;
   font-size: 15vh;
-  padding-top: 35px;
+  padding-top: 55px;
   cursor: pointer;
+}
+
+.options_item:hover {
+  background: lightcyan;
 }
 
 .item {
@@ -169,14 +176,17 @@ a {
 
 .item1 {
   color: rgb(1, 140, 227);
+  background-image: url("depositphotos_120092460-stock-photo-paper-in-the-cell.jpg");
 }
 
 .item2 {
   color: rgb(255, 238, 0);
+  background-image: url("depositphotos_120092460-stock-photo-paper-in-the-cell.jpg");
 }
 
 .item3 {
   color: rgb(255, 0, 140);
+  background-image: url("depositphotos_120092460-stock-photo-paper-in-the-cell.jpg");
 }
 
 .options {
